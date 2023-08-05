@@ -13,7 +13,7 @@ const Navbar = () => {
   const { theme, setTheme } = useTheme();
   const [nav, setNav] = useState(false);
 
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const currentTheme = theme === "system" ? theme : theme;
 
   const handleNav = () => {
     setNav(!nav);
