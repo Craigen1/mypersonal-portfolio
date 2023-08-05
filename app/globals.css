@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-btn {
+  @apply ml-10 uppercase hover:border-b-[#3FE95E] hover:border-b-4 hover:ease-in hover:duration-200;
+}
+.sm-acc {
+  @apply rounded-full shadow-md shadow-gray-400 p-3 mx-3 cursor-pointer hover:scale-[115%] duration-300 dark:shadow-sm dark:shadow-gray-300 text-[#3FE95E];
+}
